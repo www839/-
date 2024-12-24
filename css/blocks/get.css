@@ -1,0 +1,80 @@
+.get__container {
+    max-width: 71,25rem;  
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.get__title {
+    color: #292929;
+    font-size: 2rem;
+    line-height: 2.3125rem;
+
+}
+
+
+.get_opicanie {
+    color: #292929;
+    margin-left: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.875rem;
+}
+
+.get_opicaniee {
+    color: #757575;
+    margin-left: 1.25rem;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    margin-left: 13.75rem;
+    margin-bottom: 5rem;
+}
+
+.get_name {
+    color: #292929;
+    color-scheme: #292929;
+    font-size: 2rem;
+    line-height: 2.3125rem;
+}
+
+.text-field {
+    margin-bottom: 1rem;
+  }
+
+
+.text-field__label {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+
+.wod__container {
+    display: flex;
+
+   
+}
+
+.wrapper__container {
+    align-items: end;
+    margin-left: 6.75rem;
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 0.625rem;
+  
+}
+
+.wrapper__form {
+    background: transparent;
+    border-width: 0.0625rem;
+    outline: none;
+    border-color: transparent;
+    border-bottom-color: #292929;
+    font-size: 1.5rem;
+    line-height: 2.3125rem;
+    color: #292929;
+
+
+}
+
+.persona{
+    color: #292929;
+}
