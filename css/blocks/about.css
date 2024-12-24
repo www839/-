@@ -1,0 +1,58 @@
+.hero_name {
+    text-align: center;
+    margin-bottom: 3.125rem;
+    color: #292929;
+    line-height: 2.1875rem;
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+
+}
+
+.previe__container {
+    display: flex;
+    max-width: 0 auto;
+    height: 31.875rem;
+    
+}
+
+.previe__item-img{
+    align-self: flex-start;
+    height: 25.625rem;
+    margin-right: 4.375rem;
+}
+
+
+.previe__text {
+    font-family:  "Roboto", sans-serif;
+    letter-spacing: normal;
+    align-self:center;
+    max-width: 40.625rem;
+    margin-right: 7.8125rem;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.previee__item-img{
+    align-self:flex-end;
+    height: 25.625rem;
+}
+
+.pocas__item-img{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.img {
+    display: flex;
+    text-align: center;
+}
+
+.text__about {
+    margin: 0 auto;
+    max-width: 71.875rem;
+    margin-bottom: 5rem;
+    font-family:  "Roboto", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}

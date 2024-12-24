@@ -1,0 +1,34 @@
+.rectangles {
+    margin: auto;
+    width: 70%;
+    height: 7.125rem;
+    border: 0.0625rem solid;
+}
+
+.text_with_shadows {
+    color: #292929;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 6.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%);
+
+}
+
+.rectangless {
+    margin: auto;
+    width: 70%;
+    height: 7.125rem;
+    border: 0.0625rem solid;
+}
+
+
+.rectangles {
+    margin-bottom: 3.125rem;
+}
+
+.rectangless {
+    margin-bottom: 5rem;
+}
+
+
+

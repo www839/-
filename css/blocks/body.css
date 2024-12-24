@@ -1,0 +1,56 @@
+.hero__container {
+    display: flex;
+}
+
+.emerge__container {
+    display: flex;
+    margin-bottom: 1.25rem;
+   
+    
+}
+
+.oval {
+    position: relative;
+    justify-content: center;
+    z-index: -100;
+    top: 0rem;
+    left: 225px;
+    width: 25.6rem; 
+    height: 40.875rem;
+    border: 0.0625rem solid #292929;
+    border-radius: 50%;
+    transform: rotate(40deg);
+   
+}  
+
+.emerge {
+    position: relative;
+    justify-content: center;
+    z-index: 3;
+    font-size: 4.375rem;
+    line-height: 2.75rem;
+    font-family:  "Shalimar", sans-serif;
+    top: 22rem;
+    right: 5rem; 
+    height: 0rem;
+  
+}
+
+.hero_picture {
+    align-self: flex-start;
+
+}
+
+.hero_picturee {
+    display: inline-block;
+    align-self:center;
+    z-index: -200;
+    margin-right: -40.625rem;
+}
+
+.hero_pictureee {
+    align-self: flex-end;
+ 
+}
+
+

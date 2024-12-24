@@ -1,0 +1,62 @@
+.tab input, .tab-content { display: none; }
+
+   .tab {
+    margin: 0 auto;
+    font-size: 1.875rem;
+    line-height: 2.1875rem;
+    font-family:  "Roboto", sans-serif;
+    border: 0.0625rem solid #292929; 
+    width: 71.25rem;
+    
+    color: #292929; 
+    margin-bottom: 3.125rem; 
+    padding: 1.875rem;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%);
+   }
+   .tab-title {
+      font-size: 1.875rem;
+      line-height: 2.1875rem;
+      padding: 0.9375rem; 
+      display: block; 
+      text-transform: uppercase; 
+      cursor: pointer; 
+      
+   }
+   .tab-title::after {
+   margin: 0 auto;
+   margin-top: -1.125rem;
+   margin-right: -0.625rem;
+   content: url(../../img/menus.svg);
+   float: right;
+   }
+
+   .tab-content {
+      font-size: 1.25rem;
+      line-height: 1.4375rem;
+      padding: 0.625rem 1.25rem;
+      transition: transform 0.6s ease-out; 
+      
+      
+   }
+   .tab :checked + .tab-title {
+    border-radius: 0.1875rem 0.1875rem 0 0; 
+
+   }
+   .tab :checked + .tab-title::after {
+      margin: 0 auto;
+      margin-top: -0.5rem;
+      
+      content: url(../../img/plus.svg);
+      float: right;
+      
+   }
+   .tab :checked ~ .tab-content {
+    display: block;
+   }
+
+   .email_emerge {
+      color: #757575;
+   }
+
+   
+   
