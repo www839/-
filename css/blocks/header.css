@@ -271,14 +271,12 @@
     .header__burger-btn{
         display: block;
         align-items: right;
-        margin-right: 210px;
         margin-top: 0px;
         
     }
 
     .header__nav{
         position: absolute;
-        right: -820px;
         top: 0;
         width: 350px;
         background-color: #E5D2C4;
