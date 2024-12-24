@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+   
+    <title>карточка товара</title>
+</head>
+<body>
+
+    <main>
+      <div class="container simvol_container">
+        <a href="catalog.html" class="simvol_container_icon-link">
+          <img src="img/crosssedd.svg" alt="heart">
+        </a>
+
+        <a href="catalog.html" class="simvoll_container_icon-link">
+          <img src="img/crosssed.svg" alt="heart">
+        </a>
+      </div>
+
+      <div class="container cartochkaa__container">
+          <div class="slider-container">
+            <div class="slider">
+              <img src="img/cartochka1.png">
+              <img src="img/cartochka12.jpg">
+              <img src="img/cartochka13.jpg">
+              <img src="img/cartochka14.jpg">
+            </div>
+            <button class="prev-button" type="button" aria-label="Посмотреть предыдущий слайд">
+              <img src="img/strelka2.svg" alt="">
+            </button>
+            <button class="next-button" type="button" aria-label="Посмотреть следующий слайд">
+              <img src="img/strelka1.svg" alt="">
+            </button>
+      </div>
+
+      <div class="container opicanie_container">
+
+        <div class="cartochka-name">Карамельный Попкорн</div>
+
+        <div class="cartochka-price">370₽</div>
+
+        <div class="number" data-step="1" data-min="1" data-max="100">
+          <input class="number-text" type="text" name="count" value="1">
+          <a href="#" class="number-minus">−</a>
+          <a href="#" class="number-plus">+</a>
+        </div>
+
+        <div class="cartochka-header__icon">
+          <a href="#" class="cartochka-header_icon-link">
+            <img src="img/heart.svg" alt="heart">
+          </a>
+
+          <a href="#" class="cartochka-bag_icon-link">
+            <img src="img/bag.svg" alt="bag">
+          </a>
+        </div>
+
+
+
+        <div class="cartochka-text-opicanie">
+          Объём: 100 мл.
+          <br>
+          <br>
+          Ноты: Попкорн, Карамель, Ваниль, Сливки
+          <br>
+          <br>
+          Состав: Кокосовый воск, ароматическая композиция, деревянный фитиль
+          <br>
+          <br>
+          Время горения: 30 ч
+          <br>
+          <br>
+          ДxШxВ: 70x70x70 мм
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- доделать поменять размер и классы -->
+
+  <div class="accordion"> 
+    <div class="tab">
+        <input type="checkbox" id="tab1" name="tab-group">
+        <label for="tab1" class="tab-title">Инструкция по использованию</label> 
+            <section class="tab-content"> 
+                <p>
+                  1. Дайте свече прогореть 30-40 минут, чтобы верхний слой воска растопился до краев и не топил фитиль.
+                  <br>
+                  2. Аромат наполнит комнату за 30-40 минут.
+                  <br>
+                  3.Чтобы свеча хорошо горела, срезайте почерневший фитиль до 3-5 мм.
+                  <br>
+                  4.Жгите свечу не дольше 2 часов за раз.
+                  <br>
+                  5.Фитиль приобретает треск со 2 и последующих использований.
+                  <br>
+                  6.Воск натуральный - не оставляйте свечу в слишком жарком или холодном месте для сохранения качества воска.
+                </p>
+            </section> 
+    </div>
+  </div>
+  
+
+    <script src="cartochka.js"></script>
+    
+</body>
+</html>
